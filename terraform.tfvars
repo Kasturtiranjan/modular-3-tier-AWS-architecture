@@ -1,0 +1,10 @@
+aws_region          = "us-east-1"
+environment         = "production"
+vpc_cidr            = "10.0.0.0/16"
+instance_type       = "t3.micro"
+asg_min_size        = 2
+asg_max_size        = 4
+asg_desired_capacity = 2
+db_name             = "production_app_db"
+db_username         = "admin_user"
+db_password         = "SuperSecureP@ssw0rd2026!"
